@@ -542,9 +542,12 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 17, "1.3.0+L2"),
         ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 18, "1.3.0"),
     ],
+    EthereumNetwork.GTON_MAINNET: [
+        ("0x7a72bA633DaF405425c0d7343E4b802B05d87bc6", 218923, "1.3.0+L2"),
+    ],
     EthereumNetwork.GTON_TESTNET: [
-        ("0x7a72bA633DaF405425c0d7343E4b802B05d87bc6", 399398, "1.3.0+L2")
-    ]
+        ("0x7a72bA633DaF405425c0d7343E4b802B05d87bc6", 399398, "1.3.0+L2"),
+    ],
 }
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
@@ -910,7 +913,10 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     EthereumNetwork.LINEA: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 10),  # v1.3.0
     ],
+    EthereumNetwork.GTON_MAINNET: [
+        ("0xB20452a41ea9Aca263afce6B0C7CC0d5Fd410D62", 218916),  # v1.3.0
+    ],
     EthereumNetwork.GTON_TESTNET: [
-        ("0xB20452a41ea9Aca263afce6B0C7CC0d5Fd410D62", 399391),  #v1.3.0
-    ]
+        ("0xB20452a41ea9Aca263afce6B0C7CC0d5Fd410D62", 399391),  # v1.3.0
+    ],
 }
